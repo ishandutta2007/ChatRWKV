@@ -17,6 +17,7 @@ Benefits:
 
 note: token 0 is eod (doc boundary for training) but it's never used when you encode text, to avoid turning "<|endoftext|>" into token 0
 so you will manually add it (when needed) or detect it when doing generation.
+check: https://github.com/BlinkDL/RWKV-LM/blob/main/RWKV-v5/make_data.py
 
 * Good at numbers: the numerical tokens are '0'~'9', '10'~'99', ' 0'~' 9', ' 10'~' 99'.
 
